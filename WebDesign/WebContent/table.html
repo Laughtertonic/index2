@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table</title>
+</head>
+<body>
+	<table border = "1px solid black " width = "500px" height = "500px"> <!--* border는 선이고  width는 가로  height 세로 이다.*  -->
+		<tr align = "center">   <!--align 는 정렬  -->   <!--img를 쓸려면 tr안에서 이루어 져야 한다.  -->
+			<td colspan = "3" bgcolor = "blue">  <!--colspan은 셀 합치기  -->
+			<img src="image/02.png"></td>  <!--상대경로를 이용하여 파일을 넣을수 있다.-->
+			
+		</tr>
+		<tr>
+			<td rowspan = "2" bgcolor="yellow"><img src ="image/04.png"></td>  <!--rowspan은 세로로 합쳐줌.  -->
+			<td><img src ="image/05.png"></td>
+			<td><img src ="image/06.png"></td>
+		</tr>
+		<tr align = "center">
+			<td colspan = "2" bgcolor="red">
+			<img src="image/03.png">
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
